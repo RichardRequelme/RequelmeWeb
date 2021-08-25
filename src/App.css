@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #ffffff;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +35,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* NAV BAR*/
+nav img.logo{
+  width: 10rem;
+  height: 3.5rem;
+  object-fit: cover; /* Sirve para recortar la imagen */ 
+}
+/* NAV LINKS*/
+nav li.nav-item{
+
+  font-size: 2rem;
+  color:red;
+  font-family: "Times New Roman";
+  
 }
