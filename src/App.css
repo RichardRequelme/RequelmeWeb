@@ -46,7 +46,10 @@ nav img.logo{
 nav li.nav-item{
 
   font-size: 2rem;
-  color:red;
   font-family: "Times New Roman";
   
+}
+/* NAV TEXT COLOR */
+#navegador {
+  color: red;
 }

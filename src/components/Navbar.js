@@ -13,7 +13,7 @@ export const Navbar = () => {
                 <ul className="navbar-nav ml-auto">
 
                     <li className="nav-item active">
-                        <a className="nav-link" href="#">Home</a>
+                        <a className="nav-link" href="#" id="navegador">Home</a>
                     </li>
                     <li className="nav-item active">
                         <a className="nav-link" href="#">Link</a>
