@@ -36,6 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+:root{
+  --primary-white: #FFF;
+  --primary-dark:#040720;
+}
 /* NAV BAR*/
 nav img.logo{
   width: 10rem;
@@ -43,13 +48,27 @@ nav img.logo{
   object-fit: cover; /* Sirve para recortar la imagen */ 
 }
 /* NAV LINKS*/
-nav li.nav-item{
+.navbar-nav > li > a{
 
-  font-size: 2rem;
-  font-family: "Times New Roman";
-  
+  font-size: 1rem ;
+  font-family: "Consolas" ;
+  border-top: 0.1875rem solid var(--primary-dark);
 }
 /* NAV TEXT COLOR */
 #navegador {
   color: white;
+  margin-right: 0.75em;
+  margin-left: 0.5em;
+  
+
+}
+
+
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 0;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus, .navbar-nav > li > a:hover  {
+  border-top: 0.1875rem solid orange;
 }
